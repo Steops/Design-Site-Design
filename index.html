@@ -9,10 +9,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
     <title>Document</title>
   </head>
 
   <body>
+    
     <header class="header">
       <div class="header__wrapper wrapper">
         <div class="logo">
@@ -20,12 +23,12 @@
           <span class="logo__second-word">Design</span>
           <div class="logo__caption">дизайн интерьера</div>
         </div>
-        <div class="header__list">
-          <a class="header__list-link_active" href="#">Главная</a>
-          <a class="header__list-link" href="#">Тест</a>
-          <a class="header__list-link" href="#">Каталог</a>
-          <a class="header__list-link" href="#">О нас</a>
-          <a class="header__list-link" href="#">Цены</a>
+        <div class="header__nav">
+          <a class="header__nav-link_active" href="#">Главная</a>
+          <a class="header__nav-link" href="#">Тест</a>
+          <a class="header__nav-link" href="#">Каталог</a>
+          <a class="header__nav-link" href="#">О нас</a>
+          <a class="header__nav-link" href="#">Цены</a>
         </div>
         <div class="call">
           <img src="img/call.svg" class="call__img" />
@@ -38,33 +41,29 @@
     </header>
 
     <div class="intro">
-      <div class="intro__wrapper wrapper">
-        <div class="intro__cart">
-          <div class="intro__cart-text">
-            <span class="intro__cart-first-text">Мой заказ</span>
-            <span class="intro__cart-second-text">3 х 29 000mr</span>
-          </div>
-          <div class="intro__bag">
-            <a href="#" class="intro__bag-link"
-              ><img src="img/intro__bag.svg" class="bag"
-            /></a>
-          </div>
+      <div class="intro__cart">
+        <div class="intro__cart-text">
+          <span class="intro__cart-first-text">Мой заказ</span>
+          <span class="intro__cart-second-text">3 х 29 000mr</span>
         </div>
-        <h2 class="intro__title">
+        <div class="intro__bag">
+          <a href="#" class="intro__bag-link"
+            ><img src="img/intro__bag.svg" class="bag"
+          /></a>
+        </div>
+      </div>
+      <div class="intro__wrapper wrapper">
+        
+        <h2 class="intro__title _anim-items _anim-no-hide">
           Дизайн-проект для вашей квартиры за 2 недели и 199 000 ₸
         </h2>
         <div class="intro__button button">
           <a class="button__link" href="#">Консультация</a>
         </div>
-        <div class="intro__slider">
-          <div class="intro__slider-elem"></div>
-          <div class="intro__slider-elem_active"></div>
-          <div class="intro__slider-elem"></div>
-        </div>
 
         <div class="intro__service">
           <div class="intro__service-card-content">
-            <div class="intro__service-card">
+            <div class="intro__service-card _anim-items _anim-no-hide">
               <img src="img/intro__time.svg" class="intro__service-card-img" />
               <div class="intro__service-text">
                 <span class="text-first"> 2 недели</span>
@@ -72,7 +71,7 @@
               </div>
             </div>
 
-            <div class="intro__service-card">
+            <div class="intro__service-card _anim-items _anim-no-hide">
               <img src="img/intro__check.svg" class="intro__service-card-img" />
               <div class="intro__service-text">
                 <span class="text-first"> Не важно</span>
@@ -80,11 +79,10 @@
               </div>
             </div>
 
-            <div class="intro__service-card">
+            <div class="intro__service-card _anim-items _anim-no-hide">
               <img
                 src="img/intro__credit.svg"
-                class="intro__service-card-img"
-              />
+                class="intro__service-card-img">
               <div class="intro__service-text">
                 <span class="text-first"> Рассрочка</span>
                 <span class="text-second">до 24 месяцев</span>
@@ -96,11 +94,12 @@
     </div>
 
     <div class="work">
+      <img src="img/work__img-2.png" class="work__img-2 _anim-items _anim-no-hide" />
       <div class="work__wrapper wrapper">
         <div class="work__list">
           <h2 class="h2-title work__subtitle">Как это работает?</h2>
-          <div class="work__list-item">
-            <div class="work__list-marker">01</div>
+          <div class="work__list-item _anim-items _anim-no-hide">
+            <div class="work__list-marker marker-1">01</div>
             <div class="work__list-text">
               <span class="text-first">Выбор состава проекта</span>
               <span class="text-second">
@@ -110,7 +109,7 @@
             </div>
           </div>
 
-          <div class="work__list-item">
+          <div class="work__list-item _anim-items _anim-no-hide">
             <div class="work__list-marker">02</div>
             <div class="work__list-text">
               <span class="text-first">Настройка проекта</span>
@@ -121,7 +120,7 @@
             </div>
           </div>
 
-          <div class="work__list-item">
+          <div class="work__list-item _anim-items _anim-no-hide">
             <div class="work__list-marker">03</div>
             <div class="work__list-text">
               <span class="text-first">Создание чертежей</span>
@@ -132,12 +131,17 @@
           </div>
         </div>
         <div class="work__images">
-          <img src="img/work__img-2.png" class="work__img-2" />
-          <img src="img/work__img-1.png" class="work__img-1" />
+          <img src="img/work__img-1.png" class="work__img-1 _anim-items _anim-no-hide" />
         </div>
       </div>
     </div>
     <div class="services">
+      <div class="services__img-3 _anim-items _anim-no-hide">
+        <img src="img/service__img-3.png" />
+      </div>
+      <div class="services__img-3_left _anim-items _anim-no-hide">
+        <img src="img/service__img-3.png" />
+      </div>
       <div class="services__wrapper wrapper">
         <h2 class="h2-title services__title">Наши услуги</h2>
         <div class="services__content">
@@ -154,44 +158,35 @@
               планировки.
             </div>
             <ul class="services__list">
-              <li class="services__list-item">
+              <li class="services__list-item _anim-items _anim-no-hide">
                 2 варианта планировки + финальный
               </li>
-              <li class="services__list-item">обмерный план</li>
-              <li class="services__list-item">план демонтажа стен</li>
-              <li class="services__list-item">план демонтажа перегородок</li>
+              <li class="services__list-item _anim-items _anim-no-hide">обмерный план</li>
+              <li class="services__list-item _anim-items _anim-no-hide">план демонтажа стен</li>
+              <li class="services__list-item _anim-items _anim-no-hide">план демонтажа перегородок</li>
             </ul>
             <div class="application">
               <div class="application__button button">
                 <a href="#" class="button__link">Оставить заявку</a>
               </div>
-              <div class="application__pdf">
+              
+                <a href = "files/PDF Design Site.pdf" download class = "application__pdf">
                 <img src="img/icon-pdf.svg" /><span
                   class="application__pdf-text"
-                  >Посмотреть пример</span
-                >
-              </div>
+                  >Посмотреть пример</span>
+                </a>
+              
             </div>
           </div>
 
-          <div class="services__images">
-            <div class="services__img-3">
-              <img src="img/service__img-3.png" />
-            </div>
-            <div class="services__img">
-              <img src="img/service__img.png" />
-            </div>
+          <div class="services__img _anim-items _anim-no-hide">
+            <img src="img/service__img.png" />
           </div>
         </div>
 
         <div class="services__content_second">
-          <div class="services__images">
-            <div class="services__img-3_left">
-              <img src="img/service__img-3.png" />
-            </div>
-            <div class="services__img_left">
-              <img src="img/services__plan.png" />
-            </div>
+          <div class="services__img_left _anim-items _anim-no-hide">
+            <img src="img/services__plan.png" />
           </div>
 
           <div class="services__text-content_left">
@@ -208,13 +203,13 @@
               строителям для ремонта.
             </div>
             <ul class="services__list">
-              <li class="services__list-item">
+              <li class="services__list-item_left _anim-items _anim-no-hide">
                 2 варианта планировки + финальный
               </li>
-              <li class="services__list-item">
+              <li class="services__list-item_left _anim-items _anim-no-hide">
                 планы демонтажа и монтажа стен
               </li>
-              <li class="services__list-item">
+              <li class="services__list-item_left _anim-items _anim-no-hide">
                 розетки, выключатели, освещение
               </li>
               <li class="services__list-item">сантехника</li>
@@ -223,13 +218,14 @@
               <li class="services__list-item">план дверей</li>
             </ul>
             <div class="application">
-              <div class="application__button button">Оставить заявку</div>
-              <div class="application__pdf">
+              <div class="application__button button">
+                <a href="#" class="button__link">Оставить заявку</a>
+              </div>
+              <a href = "files/PDF Design Site.pdf" download class = "application__pdf">
                 <img src="img/icon-pdf.svg" /><span
                   class="application__pdf-text"
-                  >Посмотреть пример</span
-                >
-              </div>
+                  >Посмотреть пример</span>
+                </a>
             </div>
           </div>
         </div>
@@ -237,7 +233,7 @@
     </div>
     <div class="check">
       <div class="check__wrapper wrapper">
-        <div class="check__img">
+        <div class="check__img _anim-items _anim-no-hide">
           <img src="img/check.png" />
         </div>
 
@@ -265,15 +261,23 @@
         <div class="design__fill">
           <div class="design__room">
             <h3 class="design__subtitle h3-title">Гостиные</h3>
-            <div class="design__maxidash"><div class="maxidash"></div></div>
+            <div class="maxidash design__maxidash"></div>
           </div>
           <div class="design__grid">
+
             <div class="design__name">
-              <img src="img/name-1.png" class="design__img" />
               <div class="design__slider">
-                <div class="design__slider-elem_active"></div>
-                <div class="design__slider-elem"></div>
-                <div class="design__slider-elem"></div>
+                <div class="design__slider-item">
+                  <img src="img/name-1.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-2.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-3.png" class="design__img" />
+                </div>
+                <div class="design__slider-nav_next"></div>
+                <div class="design__slider-nav_prev"></div>
               </div>
               <div class="design__content">
                 <span class="design__text">Акварель</span>
@@ -283,13 +287,20 @@
                 </div>
               </div>
             </div>
-
+           
             <div class="design__name">
-              <img src="img/name-2.png" class="design__img" />
               <div class="design__slider">
-                <div class="design__slider-elem_active"></div>
-                <div class="design__slider-elem"></div>
-                <div class="design__slider-elem"></div>
+                <div class="design__slider-item">
+                  <img src="img/name-2.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-1.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-3.png" class="design__img" />
+                </div>
+                <div class="design__slider-nav_next"></div>
+                <div class="design__slider-nav_prev"></div>
               </div>
               <div class="design__content">
                 <span class="design__text">Ира</span>
@@ -300,12 +311,21 @@
               </div>
             </div>
 
+            <div class = "design__break"></div>
+
             <div class="design__name">
-              <img src="img/name-3.png" class="design__img" />
               <div class="design__slider">
-                <div class="design__slider-elem_active"></div>
-                <div class="design__slider-elem"></div>
-                <div class="design__slider-elem"></div>
+                <div class="design__slider-item">
+                  <img src="img/name-2.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-1.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-3.png" class="design__img" />
+                </div>
+                <div class="design__slider-nav_next"></div>
+                <div class="design__slider-nav_prev"></div>
               </div>
               <div class="design__content">
                 <span class="design__text">Нурс</span>
@@ -315,21 +335,29 @@
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 
         <div class="design__fill">
           <div class="design__room">
             <h3 class="design__subtitle h3-title">Детские</h3>
-            <div class="design__maxidash"><div class="maxidash"></div></div>
+            <div class="maxidash design__maxidash"></div>
           </div>
           <div class="design__grid">
             <div class="design__name">
-              <img src="img/name-4.png" class="design__img" />
               <div class="design__slider">
-                <div class="design__slider-elem_active"></div>
-                <div class="design__slider-elem"></div>
-                <div class="design__slider-elem"></div>
+                <div class="design__slider-item">
+                  <img src="img/name-4.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-5.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-6.png" class="design__img" />
+                </div>
+                <div class="design__slider-nav_next"></div>
+                <div class="design__slider-nav_prev"></div>
               </div>
               <div class="design__content">
                 <span class="design__text">Синяя</span>
@@ -341,11 +369,18 @@
             </div>
 
             <div class="design__name">
-              <img src="img/name-5.png" class="design__img" />
               <div class="design__slider">
-                <div class="design__slider-elem_active"></div>
-                <div class="design__slider-elem"></div>
-                <div class="design__slider-elem"></div>
+                <div class="design__slider-item">
+                  <img src="img/name-5.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-6.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-4.png" class="design__img" />
+                </div>
+                <div class="design__slider-nav_next"></div>
+                <div class="design__slider-nav_prev"></div>
               </div>
               <div class="design__content">
                 <span class="design__text">Розовая</span>
@@ -357,11 +392,18 @@
             </div>
 
             <div class="design__name">
-              <img src="img/name-6.png" class="design__img" />
               <div class="design__slider">
-                <div class="design__slider-elem_active"></div>
-                <div class="design__slider-elem"></div>
-                <div class="design__slider-elem"></div>
+                <div class="design__slider-item">
+                  <img src="img/name-6.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-4.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-5.png" class="design__img" />
+                </div>
+                <div class="design__slider-nav_next"></div>
+                <div class="design__slider-nav_prev"></div>
               </div>
               <div class="design__content">
                 <span class="design__text">Яркая</span>
@@ -377,17 +419,22 @@
         <div class="design__fill fill-last">
           <div class="design__room">
             <h3 class="design__subtitle h3-title">Коридоры-прихожие</h3>
-            <div class="design__maxidash">
-              <div class="maxidash dash-last"></div>
-            </div>
+            <div class="maxidash design__maxidash"></div>
           </div>
           <div class="design__grid">
             <div class="design__name">
-              <img src="img/name-7.png" class="design__img" />
               <div class="design__slider">
-                <div class="design__slider-elem_active"></div>
-                <div class="design__slider-elem"></div>
-                <div class="design__slider-elem"></div>
+                <div class="design__slider-item">
+                  <img src="img/name-7.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-8.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-9.png" class="design__img" />
+                </div>
+                <div class="design__slider-nav_next"></div>
+                <div class="design__slider-nav_prev"></div>
               </div>
               <div class="design__content">
                 <span class="design__text">Ирина</span>
@@ -399,11 +446,18 @@
             </div>
 
             <div class="design__name">
-              <img src="img/name-8.png" class="design__img" />
               <div class="design__slider">
-                <div class="design__slider-elem_active"></div>
-                <div class="design__slider-elem"></div>
-                <div class="design__slider-elem"></div>
+                <div class="design__slider-item">
+                  <img src="img/name-8.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-7.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-9.png" class="design__img" />
+                </div>
+                <div class="design__slider-nav_next"></div>
+                <div class="design__slider-nav_prev"></div>
               </div>
               <div class="design__content">
                 <span class="design__text">Акварель</span>
@@ -415,11 +469,18 @@
             </div>
 
             <div class="design__name">
-              <img src="img/name-9.png" class="design__img" />
               <div class="design__slider">
-                <div class="design__slider-elem_active"></div>
-                <div class="design__slider-elem"></div>
-                <div class="design__slider-elem"></div>
+                <div class="design__slider-item">
+                  <img src="img/name-9.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-7.png" class="design__img" />
+                </div>
+                <div class="design__slider-item">
+                  <img src="img/name-8.png" class="design__img" />
+                </div>
+                <div class="design__slider-nav_next"></div>
+                <div class="design__slider-nav_prev"></div>
               </div>
               <div class="design__content">
                 <span class="design__text">Кадыр</span>
@@ -440,7 +501,7 @@
 
     <div class="test">
       <div class="test__wrapper wrapper">
-        <div class="test__content">
+        
           <h3 class="test__subtitle">Давайте определим, что вам нравится</h3>
           <div class="test__text-main text-main">
             Пройдите короткий тест и мы покажем подходящие вам стилевые решения
@@ -448,7 +509,7 @@
           <div class="test__button button">
             <a href="#" class="button__link">Пройти тест</a>
           </div>
-        </div>
+        
       </div>
     </div>
 
@@ -555,9 +616,11 @@
     </footer>
 
     <div class="copyright">
-      <div class="copyright__wrapper wrapper">
-        <span class="copyright__text">(с) 2022. Все права защищены.</span>
+     (с) 2022. Все права защищены.
       </div>
     </div>
+    <script src = "js/animation.js"></script>
+    <script src = "js/slider.js"></script>
   </body>
+  
 </html>
