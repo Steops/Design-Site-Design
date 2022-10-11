@@ -100,12 +100,13 @@ body {
 }
 
 .intro__wrapper {
-  padding-top: 50px;
+  padding-top: 166px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0;
   padding-bottom: 101px;
+  position:relative;
 }
 
 .intro__cart-text {
@@ -133,18 +134,16 @@ body {
   display: flex;
   background-color: #262626;
   border-radius: 100px 0 0 100px;
-  max-width: 295px;
-  padding: 27px 0px 27px 53px;
+  padding: 27px 76px 27px 53px;
   align-self: flex-end;
-  position:relative;
-  left:1324px;
-  top:45px;
+  position:absolute;
+  right:-11%;
+  top:5%;
   transition:all 500ms ease;
 }
 
 .intro__cart:hover {
-  max-width:400px;
-  left:1219px;
+  padding-right:217px;
 }
 
 .intro__bag {
@@ -164,7 +163,7 @@ body {
   line-height: 49px;
   text-align: center;
   margin: 0;
-  margin-bottom: 42px;
+  margin-bottom: 43px;
 
   transform: translate(0px,120%);
   opacity:0;
@@ -249,6 +248,7 @@ body {
   display: grid;
   grid-template-columns: 0.45fr 0.55fr;
   gap: 34px;
+  position:relative;
 }
 
 .work__list-item {
@@ -316,7 +316,7 @@ body {
 .work__img-2 {
   position: absolute;
   z-index: -2;
-  right: 12%;
+  right: -12%;
 
   transform: translate(120%, 0px);
   opacity:0;
@@ -353,6 +353,7 @@ body {
 .services__wrapper {
   display: flex;
   flex-direction: column;
+  position:relative;
 }
 
 .services__title {
@@ -439,8 +440,7 @@ ul {
 
 .services__img-3 {
   position: absolute;
-  right: 12%;
-  top: 1895px;
+  right: -12%;
   z-index: -1;
 
   transform: translate(160%, 0px);
@@ -458,9 +458,8 @@ ul {
 
 .services__img-3_left {
   position: absolute;
-  left: 12%;
+  left: -12%;
   z-index: -1;
-  top: 2546px;
 
   transform: translate(-160%, 0px);
   opacity:0;
@@ -721,10 +720,12 @@ h3 {
   padding: 17px 20px;
   display: flex;
   align-items: center;
+  max-width:100%;
+  display:flex;
+  
 }
 
-.question__sum:before {
-  content: url(img/plus.svg);
+.question__img {
   margin-right: 16px;
   fill: red;
 }
@@ -734,13 +735,11 @@ h3 {
   font-size: 20px;
   line-height: 24px;
   color: #262626;
-  padding: 34px 0px 34px 30px;
-  transition: all 2s ease-out;
-}
-
-.question__details[open] > .question__sum:before {
-  transform: rotateZ(45deg);
-  color: #bd7048;
+  max-height:0px;
+  overflow:hidden;
+  padding:0px;
+  transition:0.3s ease-out;
+ 
 }
 
 .question__details {

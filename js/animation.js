@@ -39,3 +39,24 @@ if (animItems.length > 0) {
     animOnScroll();
   }, 300);
 }
+
+document.querySelectorAll('.question__sum').forEach((el) => {
+  el.addEventListener('click', () => {
+    let content = el.nextElementSibling;
+    if (content.style.maxHeight) {
+      document
+        .querySelectorAll('.question__sum-text')
+        .forEach(
+          (el) => ((el.style.maxHeight = null), (el.style.padding = null))
+        );
+    } else {
+      document
+        .querySelectorAll('.question__sum-text')
+        .forEach(
+          (el) => ((el.style.maxHeight = null), (el.style.padding = null))
+        );
+      content.style.maxHeight = content.scrollHeight + 'px';
+      content.style.padding = '34px 0px 34px 0px';
+    }
+  });
+});
