@@ -10,19 +10,14 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+
     <title>Document</title>
   </head>
 
   <body>
-    
     <header class="header">
       <div class="header__wrapper wrapper">
-        <div class="logo">
-          <span class="logo__first-word">Simple </span>
-          <span class="logo__second-word">Design</span>
-          <div class="logo__caption">дизайн интерьера</div>
-        </div>
+        <img class="logo" src="img/logo.svg" />
         <div class="header__nav">
           <a class="header__nav-link_active" href="#">Главная</a>
           <a class="header__nav-link" href="#">Тест</a>
@@ -39,559 +34,583 @@
         </div>
       </div>
     </header>
-
-    <div class="intro">
-      
-      <div class="intro__wrapper wrapper">
-        <div class="intro__cart">
-          <div class="intro__cart-text">
-            <span class="intro__cart-first-text">Мой заказ</span>
-            <span class="intro__cart-second-text">3 х 29 000mr</span>
+    <main class="main">
+      <section class="intro">
+        <div class="intro__wrapper wrapper">
+          <div class="intro__cart">
+            <div class="intro__cart-text">
+              <span class="intro__cart-first-text">Мой заказ</span>
+              <span class="intro__cart-second-text">в корзину</span>
+            </div>
+            <a href="#" class="intro__bag">
+              <img src="img/intro__bag.svg" class="bag" />
+            </a>
           </div>
-          <div class="intro__bag">
-            <a href="#" class="intro__bag-link"
-              ><img src="img/intro__bag.svg" class="bag"
-            /></a>
+          <h2 class="intro__title _anim-items _anim-no-hide">
+            Дизайн-проект для вашей квартиры за 2 недели и 199 000 ₸
+          </h2>
+          <a class="intro__button button" href="#">Консультация</a>
+
+          <div class="intro__service">
+            <div class="intro__service-card-content">
+              <div class="intro__service-card _anim-items _anim-no-hide">
+                <img
+                  src="img/intro__time.svg"
+                  class="intro__service-card-img"
+                />
+                <div class="intro__service-text">
+                  <span class="text-first"> 2 недели</span>
+                  <span class="text-second">срок выполнения заказа</span>
+                </div>
+              </div>
+
+              <div class="intro__service-card _anim-items _anim-no-hide">
+                <img
+                  src="img/intro__check.svg"
+                  class="intro__service-card-img"
+                />
+                <div class="intro__service-text">
+                  <span class="text-first"> Не важно</span>
+                  <span class="text-second"
+                    >Сколько квадратов, цена - одна!</span
+                  >
+                </div>
+              </div>
+
+              <div class="intro__service-card _anim-items _anim-no-hide">
+                <img
+                  src="img/intro__credit.svg"
+                  class="intro__service-card-img"
+                />
+                <div class="intro__service-text">
+                  <span class="text-first"> Рассрочка</span>
+                  <span class="text-second">до 24 месяцев</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <h2 class="intro__title _anim-items _anim-no-hide">
-          Дизайн-проект для вашей квартиры за 2 недели и 199 000 ₸
-        </h2>
-        <div class="intro__button button">
-          <a class="button__link" href="#">Консультация</a>
-        </div>
+      </section>
 
-        <div class="intro__service">
-          <div class="intro__service-card-content">
-            <div class="intro__service-card _anim-items _anim-no-hide">
-              <img src="img/intro__time.svg" class="intro__service-card-img" />
-              <div class="intro__service-text">
-                <span class="text-first"> 2 недели</span>
-                <span class="text-second">срок выполнения заказа</span>
+      <section class="work">
+        <div class="work__wrapper wrapper">
+          <div class="work__list">
+            <h2 class="title work__subtitle">Как это работает?</h2>
+            <div class="work__list-item _anim-items _anim-no-hide">
+              <div class="work__list-marker work__list-marker_first">01</div>
+              <div class="work__list-text">
+                <span class="work__list-text-first">Выбор состава проекта</span>
+                <span class="work__list-text-second">
+                  Выберите состав вашего проекта: только планировка или
+                  дизайн-проект
+                </span>
               </div>
             </div>
 
-            <div class="intro__service-card _anim-items _anim-no-hide">
-              <img src="img/intro__check.svg" class="intro__service-card-img" />
-              <div class="intro__service-text">
-                <span class="text-first"> Не важно</span>
-                <span class="text-second">Сколько квадратов, цена - одна!</span>
+            <div class="work__list-item _anim-items _anim-no-hide">
+              <div class="work__list-marker">02</div>
+              <div class="work__list-text">
+                <span class="text-first">Настройка проекта</span>
+                <span class="text-second">
+                  Отметьте в корзине нужен ли вам профессиональный замер, подбор
+                  строительной бригады или точный просчет сметы
+                </span>
               </div>
             </div>
 
-            <div class="intro__service-card _anim-items _anim-no-hide">
-              <img
-                src="img/intro__credit.svg"
-                class="intro__service-card-img">
-              <div class="intro__service-text">
-                <span class="text-first"> Рассрочка</span>
-                <span class="text-second">до 24 месяцев</span>
+            <div class="work__list-item _anim-items _anim-no-hide">
+              <div class="work__list-marker">03</div>
+              <div class="work__list-text">
+                <span class="text-first">Создание чертежей</span>
+                <span class="text-second">
+                  Наши дизайнеры спроектируют интерьер, подготовят чертежи.
+                </span>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="work">
-      
-      <div class="work__wrapper wrapper">
-        <div class="work__list">
-          <h2 class="h2-title work__subtitle">Как это работает?</h2>
-          <div class="work__list-item _anim-items _anim-no-hide">
-            <div class="work__list-marker marker-1">01</div>
-            <div class="work__list-text">
-              <span class="text-first">Выбор состава проекта</span>
-              <span class="text-second">
-                Выберите состав вашего проекта: только планировка или
-                дизайн-проект
-              </span>
-            </div>
+          <div class="work__images">
+            <img
+              src="img/work__img-1.png"
+              class="work__img-1 _anim-items _anim-no-hide"
+            />
           </div>
-
-          <div class="work__list-item _anim-items _anim-no-hide">
-            <div class="work__list-marker">02</div>
-            <div class="work__list-text">
-              <span class="text-first">Настройка проекта</span>
-              <span class="text-second">
-                Отметьте в корзине нужен ли вам профессиональный замер, подбор
-                строительной бригады или точный просчет сметы
-              </span>
-            </div>
-          </div>
-
-          <div class="work__list-item _anim-items _anim-no-hide">
-            <div class="work__list-marker">03</div>
-            <div class="work__list-text">
-              <span class="text-first">Создание чертежей</span>
-              <span class="text-second">
-                Наши дизайнеры спроектируют интерьер, подготовят чертежи.
-              </span>
-            </div>
-          </div>
+          <img
+            src="img/work__img-2.png"
+            class="work__img-2 _anim-items _anim-no-hide"
+          />
         </div>
-        <div class="work__images">
-          <img src="img/work__img-1.png" class="work__img-1 _anim-items _anim-no-hide" />
-        </div>
-        <img src="img/work__img-2.png" class="work__img-2 _anim-items _anim-no-hide" />
-      </div>
-    </div>
-    <div class="services">
-      
-      
-      <div class="services__wrapper wrapper">
-        <h2 class="h2-title services__title">Наши услуги</h2>
-        <div class="services__content">
-          <div class="services__text-content">
-            <h3 class="h3-title services__subtitle">Планировка за 99 000 ₸</h3>
-            <div class="due services__due">
-              <span class="due-date">Срок выполнения работ:</span>
-              <span class="due-days">5 дней</span>
-            </div>
-            <div class="services__text-main text-main">
-              Мы разработаем для вас уникальное планировочное решение квартиры,
-              которое будет соответствовать как нормам эргономики, так и вашим
-              личным пожеланиям, а также подготовим чертеж для согласования
-              планировки.
-            </div>
-            <ul class="services__list">
-              <li class="services__list-item _anim-items _anim-no-hide">
-                2 варианта планировки + финальный
-              </li>
-              <li class="services__list-item _anim-items _anim-no-hide">обмерный план</li>
-              <li class="services__list-item _anim-items _anim-no-hide">план демонтажа стен</li>
-              <li class="services__list-item _anim-items _anim-no-hide">план демонтажа перегородок</li>
-            </ul>
-            <div class="application">
-              <div class="application__button button">
-                <a href="#" class="button__link">Оставить заявку</a>
+      </section>
+
+      <section class="services">
+        <div class="services__wrapper wrapper">
+          <h2 class="title services__title">Наши услуги</h2>
+          <div class="services__content">
+            <div class="services__text-content">
+              <h3 class="h3-title services__subtitle">
+                Планировка за 99 000 ₸
+              </h3>
+              <div class="due services__due">
+                <span class="due-date">Срок выполнения работ:</span>
+                <span class="due-days">5 дней</span>
               </div>
-              
-                <a href = "files/PDF Design Site.pdf" download class = "application__pdf">
-                <img src="img/icon-pdf.svg" /><span
-                  class="application__pdf-text"
-                  >Посмотреть пример</span>
+              <div class="services__text-main text-main">
+                Мы разработаем для вас уникальное планировочное решение
+                квартиры, которое будет соответствовать как нормам эргономики,
+                так и вашим личным пожеланиям, а также подготовим чертеж для
+                согласования планировки.
+              </div>
+              <ul class="services__list">
+                <li class="services__list-item _anim-items _anim-no-hide">
+                  2 варианта планировки + финальный
+                </li>
+                <li class="services__list-item _anim-items _anim-no-hide">
+                  обмерный план
+                </li>
+                <li class="services__list-item _anim-items _anim-no-hide">
+                  план демонтажа стен
+                </li>
+                <li class="services__list-item _anim-items _anim-no-hide">
+                  план демонтажа перегородок
+                </li>
+              </ul>
+              <div class="application">
+                <a href="#" class="application__button button"
+                  >Оставить заявку</a
+                >
+                <a
+                  href="files/PDF Design Site.pdf"
+                  download
+                  class="application__pdf"
+                >
+                  <img src="img/icon-pdf.svg" /><span
+                    class="application__pdf-text"
+                    >Посмотреть пример</span
+                  >
                 </a>
-              
-            </div>
-          </div>
-
-          <div class="services__img _anim-items _anim-no-hide">
-            <img src="img/service__img.png" />
-          </div>
-          <div class="services__img-3 _anim-items _anim-no-hide">
-            <img src="img/service__img-6.png" />
-          </div>
-        </div>
-
-        <div class="services__content_second">
-          <div class="services__img_left _anim-items _anim-no-hide">
-            <img src="img/services__plan.png" />
-          </div>
-          <div class="services__img-3_left _anim-items _anim-no-hide">
-            <img src="img/service__img-3.png" />
-          </div>
-
-          <div class="services__text-content_left">
-            <h3 class="h3-title services__subtitle">
-              Дизайн-проект за 199 000 ₸
-            </h3>
-            <div class="due services__due">
-              <span class="due-date">Срок выполнения работ:</span>
-              <span class="due-days">14 дней</span>
-            </div>
-            <div class="services__text-main text-main">
-              Разработаем планировочное решение вашей квартиры, далее на его
-              основе мы подготовим альбом, состоящий из 12 чертежей, необходимых
-              строителям для ремонта.
-            </div>
-            <ul class="services__list">
-              <li class="services__list-item_left _anim-items _anim-no-hide">
-                2 варианта планировки + финальный
-              </li>
-              <li class="services__list-item_left _anim-items _anim-no-hide">
-                планы демонтажа и монтажа стен
-              </li>
-              <li class="services__list-item_left _anim-items _anim-no-hide">
-                розетки, выключатели, освещение
-              </li>
-              <li class="services__list-item">сантехника</li>
-              <li class="services__list-item">план потолка</li>
-              <li class="services__list-item">план пола и плинтусов</li>
-              <li class="services__list-item">план дверей</li>
-            </ul>
-            <div class="application">
-              <div class="application__button button">
-                <a href="#" class="button__link">Оставить заявку</a>
               </div>
-              <a href = "files/PDF Design Site.pdf" download class = "application__pdf">
-                <img src="img/icon-pdf.svg" /><span
-                  class="application__pdf-text"
-                  >Посмотреть пример</span>
+            </div>
+
+            <div class="services__img _anim-items _anim-no-hide">
+              <img src="img/service__img.png" />
+            </div>
+            <div class="services__img-3 _anim-items _anim-no-hide">
+              <img src="img/service__img-6.png" />
+            </div>
+          </div>
+
+          <div class="services__content_second">
+            <div class="services__img_left _anim-items _anim-no-hide">
+              <img src="img/services__plan.png" />
+            </div>
+            <div class="services__img-3_left _anim-items _anim-no-hide">
+              <img src="img/service__img-3.png" />
+            </div>
+
+            <div class="services__text-content_left">
+              <h3 class="h3-title services__subtitle">
+                Дизайн-проект за 199 000 ₸
+              </h3>
+              <div class="due services__due">
+                <span class="due-date">Срок выполнения работ:</span>
+                <span class="due-days">14 дней</span>
+              </div>
+              <div class="services__text-main text-main">
+                Разработаем планировочное решение вашей квартиры, далее на его
+                основе мы подготовим альбом, состоящий из 12 чертежей,
+                необходимых строителям для ремонта.
+              </div>
+              <ul class="services__list">
+                <li class="services__list-item_left _anim-items _anim-no-hide">
+                  2 варианта планировки + финальный
+                </li>
+                <li class="services__list-item_left _anim-items _anim-no-hide">
+                  планы демонтажа и монтажа стен
+                </li>
+                <li class="services__list-item_left _anim-items _anim-no-hide">
+                  розетки, выключатели, освещение
+                </li>
+                <li class="services__list-item">сантехника</li>
+                <li class="services__list-item">план потолка</li>
+                <li class="services__list-item">план пола и плинтусов</li>
+                <li class="services__list-item">план дверей</li>
+              </ul>
+              <div class="application">
+                <a href="#" class="application__button button"
+                  >Оставить заявку</a
+                >
+                <a
+                  href="files/PDF Design Site.pdf"
+                  download
+                  class="application__pdf"
+                >
+                  <img src="img/icon-pdf.svg" /><span
+                    class="application__pdf-text"
+                    >Посмотреть пример</span
+                  >
                 </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="check">
-      <div class="check__wrapper wrapper">
-        <div class="check__img _anim-items _anim-no-hide">
-          <img src="img/check.png" />
-        </div>
-
-        <div class="check__text-content">
-          <h3 class="h3-title check__subtitle">Планируете ремонт?</h3>
-          <span class="check__text-main text-main">
-            Ответьте на несколько вопросов и получите бесплатный чек-лист по
-            ремонту
-          </span>
-          <div class="check__button button">
-            <a href="#" class="button__link">Получить чек-лист</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="design">
-      <div class="design__wrapper wrapper">
-        <h2 class="design__title h2-title">Дизайн комнат</h2>
-        <div class="design__text-main text-main">
-          Выбирая дизайн комнаты, вы получаете смету со списком всех предметов в
-          интерьере, названиями, артикулами, цветом стен и так далее.
-        </div>
-
-        <div class="design__fill">
-          <div class="design__room">
-            <h3 class="design__subtitle h3-title">Гостиные</h3>
-            <div class="maxidash design__maxidash"></div>
-          </div>
-          <div class="design__grid">
-
-            <div class="design__name">
-              <div class="design__slider">
-                <div class="design__slider-item">
-                  <img src="img/name-1.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-2.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-3.png" class="design__img" />
-                </div>
-                <div class="design__slider-nav_next"></div>
-                <div class="design__slider-nav_prev"></div>
-              </div>
-              <div class="design__content">
-                <span class="design__text">Акварель</span>
-                <div class="design__button">
-                  <img src="img/intro__bag.svg" />
-                  <span class="design__choose">Выбрать</span>
-                </div>
-              </div>
-            </div>
-           
-            <div class="design__name">
-              <div class="design__slider">
-                <div class="design__slider-item">
-                  <img src="img/name-2.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-1.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-3.png" class="design__img" />
-                </div>
-                <div class="design__slider-nav_next"></div>
-                <div class="design__slider-nav_prev"></div>
-              </div>
-              <div class="design__content">
-                <span class="design__text">Ира</span>
-                <div class="design__button">
-                  <img src="img/intro__bag.svg" />
-                  <span class="design__choose">Выбрать</span>
-                </div>
-              </div>
-            </div>
-
-            <div class = "design__break"></div>
-
-            <div class="design__name">
-              <div class="design__slider">
-                <div class="design__slider-item">
-                  <img src="img/name-2.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-1.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-3.png" class="design__img" />
-                </div>
-                <div class="design__slider-nav_next"></div>
-                <div class="design__slider-nav_prev"></div>
-              </div>
-              <div class="design__content">
-                <span class="design__text">Нурс</span>
-                <div class="design__button">
-                  <img src="img/intro__bag.svg" />
-                  <span class="design__choose">Выбрать</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="design__fill">
-          <div class="design__room">
-            <h3 class="design__subtitle h3-title">Детские</h3>
-            <div class="maxidash design__maxidash"></div>
-          </div>
-          <div class="design__grid">
-            <div class="design__name">
-              <div class="design__slider">
-                <div class="design__slider-item">
-                  <img src="img/name-4.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-5.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-6.png" class="design__img" />
-                </div>
-                <div class="design__slider-nav_next"></div>
-                <div class="design__slider-nav_prev"></div>
-              </div>
-              <div class="design__content">
-                <span class="design__text">Синяя</span>
-                <div class="design__button">
-                  <img src="img/intro__bag.svg" />
-                  <span class="design__choose">Выбрать</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="design__name">
-              <div class="design__slider">
-                <div class="design__slider-item">
-                  <img src="img/name-5.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-6.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-4.png" class="design__img" />
-                </div>
-                <div class="design__slider-nav_next"></div>
-                <div class="design__slider-nav_prev"></div>
-              </div>
-              <div class="design__content">
-                <span class="design__text">Розовая</span>
-                <div class="design__button">
-                  <img src="img/intro__bag.svg" />
-                  <span class="design__choose">Выбрать</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="design__name">
-              <div class="design__slider">
-                <div class="design__slider-item">
-                  <img src="img/name-6.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-4.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-5.png" class="design__img" />
-                </div>
-                <div class="design__slider-nav_next"></div>
-                <div class="design__slider-nav_prev"></div>
-              </div>
-              <div class="design__content">
-                <span class="design__text">Яркая</span>
-                <div class="design__button">
-                  <img src="img/intro__bag.svg" />
-                  <span class="design__choose">Выбрать</span>
-                </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="design__fill fill-last">
-          <div class="design__room">
-            <h3 class="design__subtitle h3-title">Коридоры-прихожие</h3>
-            <div class="maxidash design__maxidash"></div>
+      <section class="check">
+        <div class="check__wrapper wrapper">
+          <div class="check__img _anim-items _anim-no-hide">
+            <img src="img/check.png" />
           </div>
-          <div class="design__grid">
-            <div class="design__name">
-              <div class="design__slider">
-                <div class="design__slider-item">
-                  <img src="img/name-7.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-8.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-9.png" class="design__img" />
-                </div>
-                <div class="design__slider-nav_next"></div>
-                <div class="design__slider-nav_prev"></div>
-              </div>
-              <div class="design__content">
-                <span class="design__text">Ирина</span>
-                <div class="design__button">
-                  <img src="img/intro__bag.svg" />
-                  <span class="design__choose">Выбрать</span>
-                </div>
-              </div>
-            </div>
 
-            <div class="design__name">
-              <div class="design__slider">
-                <div class="design__slider-item">
-                  <img src="img/name-8.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-7.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-9.png" class="design__img" />
-                </div>
-                <div class="design__slider-nav_next"></div>
-                <div class="design__slider-nav_prev"></div>
-              </div>
-              <div class="design__content">
-                <span class="design__text">Акварель</span>
-                <div class="design__button">
-                  <img src="img/intro__bag.svg" />
-                  <span class="design__choose">Выбрать</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="design__name">
-              <div class="design__slider">
-                <div class="design__slider-item">
-                  <img src="img/name-9.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-7.png" class="design__img" />
-                </div>
-                <div class="design__slider-item">
-                  <img src="img/name-8.png" class="design__img" />
-                </div>
-                <div class="design__slider-nav_next"></div>
-                <div class="design__slider-nav_prev"></div>
-              </div>
-              <div class="design__content">
-                <span class="design__text">Кадыр</span>
-                <div class="design__button">
-                  <img src="img/intro__bag.svg" />
-                  <span class="design__choose">Выбрать</span>
-                </div>
-              </div>
-            </div>
+          <div class="check__text-content">
+            <h3 class="h3-title check__subtitle">Планируете ремонт?</h3>
+            <span class="check__text-main text-main">
+              Ответьте на несколько вопросов и получите бесплатный чек-лист по
+              ремонту
+            </span>
+            <a href="#" class="check__button button">Получить чек-лист</a>
           </div>
         </div>
+      </section>
 
-        <div class="design__back-button button">
-          <a href="#" class="button__link">К каталогу комнат</a>
+      <section class="design">
+        <div class="design__wrapper wrapper">
+          <h2 class="design__title title">Дизайн комнат</h2>
+          <div class="design__text-main text-main">
+            Выбирая дизайн комнаты, вы получаете смету со списком всех предметов
+            в интерьере, названиями, артикулами, цветом стен и так далее.
+          </div>
+
+          <div class="design__fill">
+            <div class="design__room">
+              <h3 class="design__subtitle h3-title">Гостиные</h3>
+              <div class="maxidash design__maxidash"></div>
+            </div>
+            <div class="design__grid">
+              <div class="design__name">
+                <div class="design__slider">
+                  <div class="design__slider-item">
+                    <img src="img/name-1.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-2.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-3.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-nav_next"></div>
+                  <div class="design__slider-nav_prev"></div>
+                </div>
+                <div class="design__content">
+                  <span class="design__text">Акварель</span>
+                  <a class="design__button" href="#">
+                    <img src="img/intro__bag.svg" />
+                    <span class="design__choose">Выбрать</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="design__name">
+                <div class="design__slider">
+                  <div class="design__slider-item">
+                    <img src="img/name-2.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-1.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-3.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-nav_next"></div>
+                  <div class="design__slider-nav_prev"></div>
+                </div>
+                <div class="design__content">
+                  <span class="design__text">Ира</span>
+                  <a class="design__button" href="#">
+                    <img src="img/intro__bag.svg" />
+                    <span class="design__choose">Выбрать</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="design__name">
+                <div class="design__slider">
+                  <div class="design__slider-item">
+                    <img src="img/name-2.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-1.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-3.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-nav_next"></div>
+                  <div class="design__slider-nav_prev"></div>
+                </div>
+                <div class="design__content">
+                  <span class="design__text">Нурс</span>
+                  <a class="design__button" href="#">
+                    <img src="img/intro__bag.svg" />
+                    <span class="design__choose">Выбрать</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="design__fill">
+            <div class="design__room">
+              <h3 class="design__subtitle h3-title">Детские</h3>
+              <div class="maxidash design__maxidash"></div>
+            </div>
+            <div class="design__grid">
+              <div class="design__name">
+                <div class="design__slider">
+                  <div class="design__slider-item">
+                    <img src="img/name-4.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-5.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-6.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-nav_next"></div>
+                  <div class="design__slider-nav_prev"></div>
+                </div>
+                <div class="design__content">
+                  <span class="design__text">Синяя</span>
+                  <a class="design__button" href="#">
+                    <img src="img/intro__bag.svg" />
+                    <span class="design__choose">Выбрать</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="design__name">
+                <div class="design__slider">
+                  <div class="design__slider-item">
+                    <img src="img/name-5.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-6.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-4.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-nav_next"></div>
+                  <div class="design__slider-nav_prev"></div>
+                </div>
+                <div class="design__content">
+                  <span class="design__text">Розовая</span>
+                  <a class="design__button" href="#">
+                    <img src="img/intro__bag.svg" />
+                    <span class="design__choose">Выбрать</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="design__name">
+                <div class="design__slider">
+                  <div class="design__slider-item">
+                    <img src="img/name-6.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-4.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-5.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-nav_next"></div>
+                  <div class="design__slider-nav_prev"></div>
+                </div>
+                <div class="design__content">
+                  <span class="design__text">Яркая</span>
+                  <a class="design__button" href="#">
+                    <img src="img/intro__bag.svg" />
+                    <span class="design__choose">Выбрать</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="design__fill fill-last">
+            <div class="design__room">
+              <h3 class="design__subtitle h3-title">Коридоры-прихожие</h3>
+              <div class="maxidash design__maxidash"></div>
+            </div>
+            <div class="design__grid">
+              <div class="design__name">
+                <div class="design__slider">
+                  <div class="design__slider-item">
+                    <img src="img/name-7.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-8.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-9.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-nav_next"></div>
+                  <div class="design__slider-nav_prev"></div>
+                </div>
+                <div class="design__content">
+                  <span class="design__text">Ирина</span>
+                  <a class="design__button" href="#">
+                    <img src="img/intro__bag.svg" />
+                    <span class="design__choose">Выбрать</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="design__name">
+                <div class="design__slider">
+                  <div class="design__slider-item">
+                    <img src="img/name-8.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-7.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-9.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-nav_next"></div>
+                  <div class="design__slider-nav_prev"></div>
+                </div>
+                <div class="design__content">
+                  <span class="design__text">Акварель</span>
+                  <a class="design__button" href="#">
+                    <img src="img/intro__bag.svg" />
+                    <span class="design__choose">Выбрать</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="design__name">
+                <div class="design__slider">
+                  <div class="design__slider-item">
+                    <img src="img/name-9.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-7.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-item">
+                    <img src="img/name-8.png" class="design__img" />
+                  </div>
+                  <div class="design__slider-nav_next"></div>
+                  <div class="design__slider-nav_prev"></div>
+                </div>
+                <div class="design__content">
+                  <span class="design__text">Кадыр</span>
+                  <a class="design__button" href="#">
+                    <img src="img/intro__bag.svg" />
+                    <span class="design__choose">Выбрать</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="design__back-button button">К каталогу комнат</a>
         </div>
-      </div>
-    </div>
+      </section>
 
-    <div class="test">
-      <div class="test__wrapper wrapper">
-        
+      <section class="test">
+        <div class="test__wrapper wrapper">
           <h3 class="test__subtitle">Давайте определим, что вам нравится</h3>
           <div class="test__text-main text-main">
             Пройдите короткий тест и мы покажем подходящие вам стилевые решения
           </div>
-          <div class="test__button button">
-            <a href="#" class="button__link">Пройти тест</a>
-          </div>
-        
-      </div>
-    </div>
+          <a href="#" class="test__button button">Пройти тест</a>
+        </div>
+      </section>
 
-    <div class="question">
-      <div class="question__wrapper wrapper">
-        <h2 class="question__h2-title h2-title">Часто задаваемые вопросы</h2>
-        <div class="question__content">
-          <div class="question__details">
-            <div class="question__sum"><img src = "img/plus.svg" class = "question__img">Вопрос</div>
-            <div class="question__sum-text _akkordeon">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada
-              nibh at ornare turpis sit lacus, in viverra volutpat. Id sed quam
-              consectetur condimentum tellus pellentesque a, convallis metus.
-              Hac dui sit cursus ac id aliquet. A convallis suspendisse in nulla
-              risus, senectus vitae. Condimentum in aliquet egestas aliquam at
-              eu. Id bibendum iaculis netus ipsum quis amet lectus nisi mattis.
-              Sit porttitor a vulputate aliquam elementum, odio lacus.
+      <section class="question">
+        <div class="question__wrapper wrapper">
+          <h2 class="question__title title">Часто задаваемые вопросы</h2>
+          <div class="question__content">
+            <div class="question__details">
+              <div class="question__sum">
+                <img src="img/plus.svg" class="question__img" />Вопрос
+              </div>
+              <div class="question__sum-text _akkordeon">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Malesuada nibh at ornare turpis sit lacus, in viverra volutpat.
+                Id sed quam consectetur condimentum tellus pellentesque a,
+                convallis metus. Hac dui sit cursus ac id aliquet. A convallis
+                suspendisse in nulla risus, senectus vitae. Condimentum in
+                aliquet egestas aliquam at eu. Id bibendum iaculis netus ipsum
+                quis amet lectus nisi mattis. Sit porttitor a vulputate aliquam
+                elementum, odio lacus.
+              </div>
             </div>
-          </div>
-          <div class="question__details">
-            <div class="question__sum"><img src = "img/plus.svg" class = "question__img">Вопрос</div>
-            <div class="question__sum-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada
-              nibh at ornare turpis sit lacus, in viverra volutpat. Id sed quam
-              consectetur condimentum tellus pellentesque a, convallis metus.
-              Hac dui sit cursus ac id aliquet. A convallis suspendisse in nulla
-              risus, senectus vitae. Condimentum in aliquet egestas aliquam at
-              eu. Id bibendum iaculis netus ipsum quis amet lectus nisi mattis.
-              Sit porttitor a vulputate aliquam elementum, odio lacus.
+            <div class="question__details">
+              <div class="question__sum">
+                <img src="img/plus.svg" class="question__img" />Вопрос
+              </div>
+              <div class="question__sum-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Malesuada nibh at ornare turpis sit lacus, in viverra volutpat.
+                Id sed quam consectetur condimentum tellus pellentesque a,
+                convallis metus. Hac dui sit cursus ac id aliquet. A convallis
+                suspendisse in nulla risus, senectus vitae. Condimentum in
+                aliquet egestas aliquam at eu. Id bibendum iaculis netus ipsum
+                quis amet lectus nisi mattis. Sit porttitor a vulputate aliquam
+                elementum, odio lacus.
+              </div>
             </div>
-          </div>
-          <div class="question__details">
-            <div class="question__sum"><img src = "img/plus.svg" class = "question__img">Вопрос</div>
-            <div class="question__sum-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada
-              nibh at ornare turpis sit lacus, in viverra volutpat. Id sed quam
-              consectetur condimentum tellus pellentesque a, convallis metus.
-              Hac dui sit cursus ac id aliquet. A convallis suspendisse in nulla
-              risus, senectus vitae. Condimentum in aliquet egestas aliquam at
-              eu. Id bibendum iaculis netus ipsum quis amet lectus nisi mattis.
-              Sit porttitor a vulputate aliquam elementum, odio lacus.
+            <div class="question__details">
+              <div class="question__sum">
+                <img src="img/plus.svg" class="question__img" />Вопрос
+              </div>
+              <div class="question__sum-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Malesuada nibh at ornare turpis sit lacus, in viverra volutpat.
+                Id sed quam consectetur condimentum tellus pellentesque a,
+                convallis metus. Hac dui sit cursus ac id aliquet. A convallis
+                suspendisse in nulla risus, senectus vitae. Condimentum in
+                aliquet egestas aliquam at eu. Id bibendum iaculis netus ipsum
+                quis amet lectus nisi mattis. Sit porttitor a vulputate aliquam
+                elementum, odio lacus.
+              </div>
             </div>
-          </div>
-          <div class="question__details">
-            <div class="question__sum"><img src = "img/plus.svg" class = "question__img">Вопрос</div>
-            <div class="question__sum-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada
-              nibh at ornare turpis sit lacus, in viverra volutpat. Id sed quam
-              consectetur condimentum tellus pellentesque a, convallis metus.
-              Hac dui sit cursus ac id aliquet. A convallis suspendisse in nulla
-              risus, senectus vitae. Condimentum in aliquet egestas aliquam at
-              eu. Id bibendum iaculis netus ipsum quis amet lectus nisi mattis.
-              Sit porttitor a vulputate aliquam elementum, odio lacus.
+            <div class="question__details">
+              <div class="question__sum">
+                <img src="img/plus.svg" class="question__img" />Вопрос
+              </div>
+              <div class="question__sum-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Malesuada nibh at ornare turpis sit lacus, in viverra volutpat.
+                Id sed quam consectetur condimentum tellus pellentesque a,
+                convallis metus. Hac dui sit cursus ac id aliquet. A convallis
+                suspendisse in nulla risus, senectus vitae. Condimentum in
+                aliquet egestas aliquam at eu. Id bibendum iaculis netus ipsum
+                quis amet lectus nisi mattis. Sit porttitor a vulputate aliquam
+                elementum, odio lacus.
+              </div>
             </div>
-          </div>
-          <div class="question__details">
-            <div class="question__sum"><img src = "img/plus.svg" class = "question__img">Вопрос</div>
-            <div class="question__sum-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada
-              nibh at ornare turpis sit lacus, in viverra volutpat. Id sed quam
-              consectetur condimentum tellus pellentesque a, convallis metus.
-              Hac dui sit cursus ac id aliquet. A convallis suspendisse in nulla
-              risus, senectus vitae. Condimentum in aliquet egestas aliquam at
-              eu. Id bibendum iaculis netus ipsum quis amet lectus nisi mattis.
-              Sit porttitor a vulputate aliquam elementum, odio lacsus.
+            <div class="question__details">
+              <div class="question__sum">
+                <img src="img/plus.svg" class="question__img" />Вопрос
+              </div>
+              <div class="question__sum-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Malesuada nibh at ornare turpis sit lacus, in viverra volutpat.
+                Id sed quam consectetur condimentum tellus pellentesque a,
+                convallis metus. Hac dui sit cursus ac id aliquet. A convallis
+                suspendisse in nulla risus, senectus vitae. Condimentum in
+                aliquet egestas aliquam at eu. Id bibendum iaculis netus ipsum
+                quis amet lectus nisi mattis. Sit porttitor a vulputate aliquam
+                elementum, odio lacsus.
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
 
     <footer class="footer">
       <div class="footer__wrapper wrapper">
         <div class="footer__content">
-          <div class="logo footer__logo">
-            <span class="logo__first-word">Simple </span>
-            <span class="logo__second-word">Design</span>
-            <div class="logo__caption">дизайн интерьера</div>
-          </div>
+          <img class="logo footer__logo" src="img/logo.svg" />
 
           <div class="footer__menu">
             <a href="#" class="footer__link">Главная</a>
@@ -618,12 +637,9 @@
       </div>
     </footer>
 
-    <div class="copyright">
-     (с) 2022. Все права защищены.
-      </div>
-    </div>
-    <script src = "js/animation.js"></script>
-    <script src = "js/slider.js"></script>
+    <div class="copyright">(с) 2022. Все права защищены.</div>
+
+    <script src="js/animation.js"></script>
+    <script src="js/slider.js"></script>
   </body>
-  
 </html>
