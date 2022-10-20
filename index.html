@@ -18,8 +18,9 @@
     <header class="header">
       <div class="header__wrapper wrapper">
         <img class="logo" src="img/logo.svg" />
+
         <div class="header__nav">
-          <a class="header__nav-link_active" href="#">Главная</a>
+          <a class="header__nav-link" href="#">Главная</a>
           <a class="header__nav-link" href="#">Тест</a>
           <a class="header__nav-link" href="#">Каталог</a>
           <a class="header__nav-link" href="#">О нас</a>
@@ -32,8 +33,17 @@
             <span class="call__work-time">с 9:00 до 18:00</span>
           </div>
         </div>
+        <div class="hamb">
+          <div class="hamb__field">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
       </div>
     </header>
+    <div class="popup"></div>
+
     <main class="main">
       <section class="intro">
         <div class="intro__wrapper wrapper">
@@ -46,8 +56,15 @@
               <img src="img/intro__bag.svg" class="bag" />
             </a>
           </div>
+          <div class="intro__bag_mobile">
+            <a href="#" class="intro__bag">
+              <img src="img/intro__bag.svg" class="bag" />
+            </a>
+          </div>
+
           <h2 class="intro__title _anim-items _anim-no-hide">
-            Дизайн-проект для вашей квартиры за 2 недели и 199 000 ₸
+            Дизайн-проект для вашей квартиры за 2&nbsp;недели и
+            199&nbsp;000&nbsp;₸
           </h2>
           <a class="intro__button button" href="#">Консультация</a>
 
@@ -99,8 +116,8 @@
             <div class="work__list-item _anim-items _anim-no-hide">
               <div class="work__list-marker work__list-marker_first">01</div>
               <div class="work__list-text">
-                <span class="work__list-text-first">Выбор состава проекта</span>
-                <span class="work__list-text-second">
+                <span class="text-first">Выбор состава проекта</span>
+                <span class="text-second">
                   Выберите состав вашего проекта: только планировка или
                   дизайн-проект
                 </span>
@@ -147,7 +164,7 @@
           <div class="services__content">
             <div class="services__text-content">
               <h3 class="h3-title services__subtitle">
-                Планировка за 99 000 ₸
+                Планировка за 99&nbsp;000&nbsp;₸
               </h3>
               <div class="due services__due">
                 <span class="due-date">Срок выполнения работ:</span>
@@ -191,24 +208,24 @@
             </div>
 
             <div class="services__img _anim-items _anim-no-hide">
-              <img src="img/service__img.png" />
+              <img src="img/service__img.png" class="services__plan" />
             </div>
             <div class="services__img-3 _anim-items _anim-no-hide">
-              <img src="img/service__img-6.png" />
+              <img src="img/service__img-6.png" class="services__backgr" />
             </div>
           </div>
 
           <div class="services__content_second">
             <div class="services__img_left _anim-items _anim-no-hide">
-              <img src="img/services__plan.png" />
+              <img src="img/services__plan.png" class="services__plan" />
             </div>
             <div class="services__img-3_left _anim-items _anim-no-hide">
-              <img src="img/service__img-3.png" />
+              <img src="img/service__img-3.png" class="services__backgr" />
             </div>
 
             <div class="services__text-content_left">
               <h3 class="h3-title services__subtitle">
-                Дизайн-проект за 199 000 ₸
+                Дизайн-проект за 199&nbsp;000&nbsp;₸
               </h3>
               <div class="due services__due">
                 <span class="due-date">Срок выполнения работ:</span>
@@ -229,10 +246,18 @@
                 <li class="services__list-item_left _anim-items _anim-no-hide">
                   розетки, выключатели, освещение
                 </li>
-                <li class="services__list-item">сантехника</li>
-                <li class="services__list-item">план потолка</li>
-                <li class="services__list-item">план пола и плинтусов</li>
-                <li class="services__list-item">план дверей</li>
+                <li class="services__list-item_left _anim-items _anim-no-hide">
+                  сантехника
+                </li>
+                <li class="services__list-item_left _anim-items _anim-no-hide">
+                  план потолка
+                </li>
+                <li class="services__list-item_left _anim-items _anim-no-hide">
+                  план пола и плинтусов
+                </li>
+                <li class="services__list-item_left _anim-items _anim-no-hide">
+                  план дверей
+                </li>
               </ul>
               <div class="application">
                 <a href="#" class="application__button button"
@@ -641,5 +666,6 @@
 
     <script src="js/animation.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/adaptive.js"></script>
   </body>
 </html>
