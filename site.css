@@ -5,7 +5,7 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: rgba(38, 38, 38, 0.7);
-  margin: 0px;
+  margin: 0;
 }
 
 a {
@@ -60,7 +60,7 @@ a {
   display: flex;
   justify-content: space-between;
   font-weight: 600;
-  padding: 50px 0px 50px 0px;
+  padding: 50px 0 50px 0;
   align-items: center;
 }
 
@@ -183,9 +183,9 @@ a {
 
 .intro__service {
   padding: 70px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   background-color: #fff;
-  border-radius: 50px 50px 0px 0px;
+  border-radius: 50px 50px 0 0;
 }
 
 .intro__service-card {
@@ -250,7 +250,7 @@ a {
 }
 
 .work__list-item:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .work__list-marker {
@@ -437,7 +437,7 @@ ul {
 }
 
 .services__img {
-  padding: 38px 0px 86px 0px;
+  padding: 38px 0 86px 0;
   transform: translate(120%, 0px);
   opacity: 0;
   transition: all 1.5s ease 0s;
@@ -454,7 +454,7 @@ ul {
 }
 
 .services__img_left {
-  padding: 71px 0px 63px 0px;
+  padding: 71px 0 63px 0;
 
   transform: translate(-120%, 0px);
   opacity: 0;
@@ -647,7 +647,7 @@ ul {
 }
 
 .test__wrapper {
-  padding: 125px 0px 125px 0px;
+  padding: 125px 0 125px 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -662,7 +662,7 @@ ul {
 }
 
 h3 {
-  margin: 0px;
+  margin: 0;
 }
 
 .test__text-main {
@@ -673,7 +673,7 @@ h3 {
 }
 
 .question {
-  padding: 53px 0px 74px 0px;
+  padding: 53px 0px 74px 0;
 }
 
 .question__title {
@@ -707,9 +707,9 @@ h3 {
   font-size: 20px;
   line-height: 24px;
   color: #262626;
-  max-height: 0px;
+  max-height: 0;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   transition: 0.3s ease-out;
 }
 
@@ -718,7 +718,7 @@ h3 {
 }
 
 .question__details:nth-child(5) {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .footer {
@@ -835,7 +835,7 @@ h3 {
   .footer__logo,
   .footer__menu,
   .confid {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .intro__service-card-content {
@@ -906,7 +906,7 @@ h3 {
     display: block;
     width: 27px;
     height: 3px;
-    margin: 3px 0px;
+    margin: 3px 0;
     background-color: black;
     transition: 0.2s;
   }
@@ -948,7 +948,7 @@ h3 {
   }
 
   .hamb__field {
-    margin-right: 30px;
+    margin-right: 0;
   }
 
   body._noscroll {
@@ -969,7 +969,7 @@ h3 {
     display: none;
   }
   .test {
-    padding: 0px;
+    padding: 0;
   }
   .intro__cart {
     display: none;
@@ -1033,7 +1033,7 @@ h3 {
   }
 
   .design__text {
-    padding: 0px;
+    padding: 0;
   }
 
   .intro__service {
@@ -1047,7 +1047,7 @@ h3 {
   .footer__logo,
   .footer__menu,
   .confid {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .footer__logo {
@@ -1055,7 +1055,7 @@ h3 {
   }
 
   .footer__link {
-    padding: 7px 0px;
+    padding: 7px 0;
   }
 }
 
@@ -1077,10 +1077,10 @@ h3 {
   .work,
   .services,
   .design {
-    padding: 60px 0px;
+    padding: 60px 0;
   }
   .footer {
-    padding: 0px;
+    padding: 0;
   }
 
   .check {
@@ -1151,7 +1151,7 @@ h3 {
   }
   .design__text {
     font-size: 20px;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .design__button {
@@ -1173,5 +1173,27 @@ h3 {
   .design__slider-nav_next,
   .design__slider-nav_prev {
     height: 70%;
+  }
+
+  .wrapper {
+    width: calc(100% - 20px);
+  }
+
+  .intro__service {
+    padding: 40px;
+  }
+
+  .services__title {
+    margin-bottom: 42px;
+  }
+}
+
+@media (max-width: 320px) {
+  .work__list-marker {
+    margin-right: 10px;
+    width: 20px;
+  }
+  .work__list-marker_first {
+    margin-right: 10px;
   }
 }
